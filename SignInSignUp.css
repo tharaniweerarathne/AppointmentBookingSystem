@@ -1,0 +1,294 @@
+
+:root {
+    --primary-color: #111317;
+    --primary-color-light: #1f2125;
+    --primary-color-extra-light: #35373b;
+    --secondary-color: #D91656;
+    --secondary-color-dark: #AF1740;
+    --text-light: #d1d5db;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: var(--white);
+    font-size: 16px;
+}
+
+.login-container {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.login-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--primary-color-light);
+    margin-bottom: 30px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    color: var(--primary-color-extra-light);
+}
+
+.social-links a {
+    color: var(--primary-color-extra-light);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    text-transform: uppercase;
+    color: var(--primary-color-extra-light);
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px 40px;
+    border: 1px solid #e2e8f0;
+    background: var(--white);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 2px rgba(217, 22, 86, 0.1);
+}
+
+.ri-mail-line,
+.ri-lock-line,
+.ri-user-3-line ,
+.ri-phone-fill{
+    position: absolute;
+    left: 15px;
+    top: 70%;
+    transform: translateY(-50%);
+    color: var(--primary-color-extra-light);
+    font-size: 18px;
+}
+
+.ri-eye-line {
+    position: absolute;
+    right: 15px;
+    top: 70%;
+    transform: translateY(-50%);
+    color: var(--primary-color-extra-light);
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.ri-eye-line:hover {
+    color: var(--secondary-color);
+}
+
+.ri-eye-off-line {
+    position: absolute;
+    right: 10px;
+    top: 70%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 15px;
+    background: var(--secondary-color-dark);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.forgot-password {
+    color: var(--primary-color-extra-light);
+    text-decoration: none;
+}
+
+.welcome-section {
+    flex: 1;
+    background: var(--secondary-color-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    text-align: center;
+    padding: 40px;
+}
+
+.welcome-section h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.button1 {
+    padding: 12px 40px;
+    border: 2px solid var(--white);
+    border-radius: 25px;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.sign-up-button:hover {
+    background: var(--white);
+    color: var(--secondary-color-dark);
+}
+
+.signup-form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.signup-submit-button {
+    width: 100%;
+    padding: 15px;
+    background: var(--secondary-color-dark);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.form-group select:focus {
+    outline: none;
+    border-color: var(--secondary-color-dark);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .login-container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .login-form {
+        max-width: 100%;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+
+    .form-group input,
+    .form-group select {
+        padding: 12px;
+    }
+
+    .sign-in-button {
+        padding: 12px;
+    }
+
+    .welcome-section h2 {
+        font-size: 32px;
+    }
+
+    .welcome-section p {
+        font-size: 16px;
+    }
+
+    .button1 {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .signup-form {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 15px;
+    }
+
+    .welcome-section {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .sign-in-button {
+        padding: 10px;
+    }
+
+    .button1 {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+}
