@@ -239,13 +239,13 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com'; // Gmail SMTP server
     $mail->SMTPAuth   = true;            // Enable SMTP authentication
-    $mail->Username   = 'ranhuyabridal@gmail.com'; // Your Gmail address
-    $mail->Password   = 'spbx wyjx mlbm fdtb'; // Your Gmail password or App Password
+    $mail->Username   = 'your_email'; // Your Gmail address
+    $mail->Password   = 'your_password'; // Your Gmail password or App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption
     $mail->Port       = 587; // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('ranhuyabridal@gmail.com', 'Ranhuyabridal');
+    $mail->setFrom('your_email', 'Ranhuyabridal');
     $mail->addAddress($customer_email); // Add customer email
 
     // Content
