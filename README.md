@@ -26,3 +26,5 @@ A full-featured salon management platform where customers, staff, and admins can
 - Database: MySQL/MongoDB
 - Email: phpmail
 
+<hr>
+<p align="center"><strong>🌟 Star the repo if you like it! Contributions are welcome.</strong> 🚀</p>
