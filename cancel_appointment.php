@@ -149,13 +149,13 @@ function sendEmail($to, $subject, $body) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; 
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'ranhuyabridal@gmail.com'; 
-        $mail->Password   = 'spbx wyjx mlbm fdtb'; 
+        $mail->Username   = 'your_email'; 
+        $mail->Password   = 'your_password'; 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         // Recipients
-        $mail->setFrom('ranhuyabridal@gmail.com', 'Ranhuya Bridal House');
+        $mail->setFrom('your_email', 'Ranhuya Bridal House');
         $mail->addAddress($to);
 
         // Content
