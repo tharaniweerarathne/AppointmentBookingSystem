@@ -8,12 +8,12 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"
 />
-    <link rel="stylesheet" href="Index1.css">
+    <link rel="stylesheet" href="index2.css">
 </head>
 <body>
     <nav>
         <div class="navbar_logo">
-            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <a href="#"><img src="images/logo1.png" alt="logo"></a>
         </div>
         <ul class="navbar">
             <li class="links"><a href="#home">Home</a></li>
@@ -51,8 +51,8 @@
             <img src="images/about4.webp" alt="Aboutus image" />
             <div class="about_text">
                 <h1>About Us</h1>
-                <h5>RANHUYA <span class="about1">BRIDAL HOUSE </span></h5>
-                <p>Ranhuya Bridal House in Seeduwa offers premium beauty and wellness services, 
+                <h5>SALON <span class="about1">HAIR </span></h5>
+                <p>Salon hair in Seeduwa offers premium beauty and wellness services, 
                     including exceptional bridal makeup and other treatments. 
                     The salon focuses on delivering high-quality services in a relaxing, luxurious environment, 
                     ensuring customer satisfaction through personalized attention and detail.</p>
@@ -67,10 +67,10 @@
     
         <div class="gallery1">
             <div id="gallery" class="gallery">
-                <img class="gallerImg" src="images/gallery4.jpg" alt="Image 1">
-                <img class="gallerImg" src="images/gallery2.jpg" alt="Image 2">
-                <img class="gallerImg" src="images/gallery1.jpg" alt="Image 3">
-                <img class="gallerImg" src="images/gallery3.jpg" alt="Image 4">
+                <img class="gallerImg" src="images/gallery1.avif" alt="Image 1">
+                <img class="gallerImg" src="images/gallery5.jpg" alt="Image 2">
+                <img class="gallerImg" src="images/gallery6.jpg" alt="Image 3">
+                <img class="gallerImg" src="images/gallery7.jpg" alt="Image 4">
             </div>
     
             <button onclick="scrollGallery(-1)" class="gallery_btn">&#10094;</button>
@@ -88,12 +88,12 @@
         <div class="team_content">
 
             <div class="box1">
-                <img src="images/img6.jpg" alt="Team">
+                <img src="images/salon1.avif" alt="Team">
                 <h3>Shugi Perera</h3>
                 <h5>Founder</h5>
                 <div class="iconTeam">
-                    <a href="https://www.facebook.com/share/1EbV5pUt2a/?mibextid=wwXIfr"><i class="ri-facebook-circle-fill"></i></a>
-                    <a href="https://www.facebook.com/share/1EbV5pUt2a/?mibextid=wwXIfr"></a><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"></a><i class="ri-instagram-fill"></i></a>
                 </div>
             </div>
     
@@ -196,15 +196,15 @@
         <div class="footer_col">
             <div class="footer_logo"><img src="images/logo.png" alt="logo"></div>
             <p>
-                Ranhuya Bridal House in Seeduwa offers premium beauty and wellness services, 
+                Salon hair in Seeduwa offers premium beauty and wellness services, 
                 including exceptional bridal makeup and other treatments, 
                 focusing on customer satisfaction and personalized attention.
             </p>
 
             <div class="footer-socials">
-                <a href="https://www.facebook.com/share/1EbV5pUt2a/?mibextid=wwXIfr"><i class="ri-facebook-circle-fill"></i></a>
-                <a href="https://www.instagram.com/psurangi6?igsh=MXJid2xoNDcxMHp1Zw=="><i class="ri-instagram-fill"></i></a>
-                <a href="#"><i class="ri-phone-fill">0763431216</i></a>
+                <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-phone-fill">071122769</i></a>
             </div>
         </div>
     
