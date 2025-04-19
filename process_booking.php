@@ -245,12 +245,12 @@ try {
     $mail->Port       = 587; // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('your_email', 'Ranhuyabridal');
+    $mail->setFrom('your_email', 'Salon hair');
     $mail->addAddress($customer_email); // Add customer email
 
     // Content
     $mail->isHTML(false); // Set email format to plain text
-    $mail->Subject = 'Appointment Confirmation - Ranhuya Bridal House';
+    $mail->Subject = 'Appointment Confirmation - Salon hair';
     $mail->Body    = "Dear Customer,\n\nYour appointment has been confirmed with the following details:\n\n"
         . "Appointment ID: $appointment_id\n"
         . "Service: $primary_service_name\n"
@@ -258,7 +258,7 @@ try {
         . "Start Time: $start_time\n"
         . "Stylist: $stylist_name\n"
         . "Total Price: Rs. " . number_format($final_price, 2) . "\n\n"
-        . "Thank you for choosing Ranhuya Bridal House!";
+        . "Thank you for choosing Salon hair!";
 
     $mail->send();
     echo 'Email sent to customer successfully.';

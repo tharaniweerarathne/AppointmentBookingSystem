@@ -85,8 +85,8 @@ if ($stmt->execute()) {
         . "Start Time: $start_time\n"
         . "Stylist: $stylist_name\n\n"
         . "If you have any questions or would like to reschedule, please contact us.\n\n"
-        . "Thank you for choosing Ranhuya Bridal House!";
-    sendEmail($customer_email, 'Appointment Cancellation - Ranhuya Bridal House', $cancellationBody);
+        . "Thank you for choosing Salon hair!";
+    sendEmail($customer_email, 'Appointment Cancellation - Salon hair ', $cancellationBody);
 
     // Check if there is a waitlist for this service and date
     $waitlistQuery = "SELECT * FROM waitlist WHERE service_id = ? AND date = ? ORDER BY id ASC LIMIT 1";
@@ -125,8 +125,8 @@ if ($stmt->execute()) {
                 . "Start Time: $start_time\n"
                 . "Stylist: $stylist_name\n"
                 . "Total Price: Rs. " . number_format($total_amount, 2) . "\n\n"
-                . "Thank you for choosing Ranhuya Bridal House!";
-            sendEmail($waitlist_customer_email, 'Appointment Confirmation - Ranhuya Bridal House', $confirmationBody);
+                . "Thank you for choosing Salon hair!";
+            sendEmail($waitlist_customer_email, 'Appointment Confirmation - Salon hair', $confirmationBody);
 
             echo json_encode(['success' => true, 'message' => 'Appointment cancelled and assigned to waitlist customer']);
         } else {
@@ -155,7 +155,7 @@ function sendEmail($to, $subject, $body) {
         $mail->Port       = 587;
 
         // Recipients
-        $mail->setFrom('your_email', 'Ranhuya Bridal House');
+        $mail->setFrom('your_email', 'Salon hair');
         $mail->addAddress($to);
 
         // Content

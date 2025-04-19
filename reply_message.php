@@ -52,13 +52,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Port = 587; // TCP port to connect to
 
             // Recipients
-            $mail->setFrom('your_email', 'Ranhuya Bridal House');
+            $mail->setFrom('your_email', ' Salon hair');
             $mail->addAddress($user_email); // Add a recipient
 
             // Content
             $mail->isHTML(false); // Set email format to plain text
-            $mail->Subject = 'Reply from Ranhuya Bridal House';
-            $mail->Body = "Dear Customer,\n\nWe received your message and here's our reply:\n\n$reply\n\nBest regards,\nRanhuya Team";
+            $mail->Subject = 'Reply from Salon hair';
+            $mail->Body = "Dear Customer,\n\nWe received your message and here's our reply:\n\n$reply\n\nBest regards,\nSalon hair Team";
 
             $mail->send();
             echo "<script>alert('Reply sent successfully!'); window.history.back();</script>";
