@@ -13,7 +13,7 @@
 <body>
     <nav>
         <div class="navbar_logo">
-            <a href="#"><img src="images/logo1.png" alt="logo"></a>
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
         </div>
         <ul class="navbar">
             <li class="links"><a href="#home">Home</a></li>
