@@ -2,7 +2,7 @@
 
 A full-featured salon management system with CRUD operations for seamless interaction between customers, staff, and admins.
 
-<img src="images/website.png" alt="image" /> 
+<img src="Screenshots_application/home.png" alt="image" /> 
 
 ## 🚀 Features
 
@@ -39,7 +39,7 @@ A full-featured salon management system with CRUD operations for seamless intera
 ### 🏠 Homepage, Our Team Section, Added Service page , send message section and Review Page
 | Homepage                             | Team Section                                               |         Added Service Section                |   
 |-------------------------------------|-------------------------------------------------------------|-----------------------------------------------------|
-| ![Homepage](images/website.png) | ![Team](Screenshots_application/team.png)   | ![service](Screenshots_application/service.png) | 
+| ![Homepage](Screenshots_application/home.png) | ![Team](Screenshots_application/team.png)   | ![service](Screenshots_application/service.png) | 
 
 
  |     Send message section               |     Review page           |
