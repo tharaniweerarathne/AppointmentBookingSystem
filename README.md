@@ -55,7 +55,7 @@ A full-featured salon management system with CRUD operations for seamless intera
 ### 📊 Customer Dashboard with calendar view 
 | Customer Dashboard                          |
 |-------------------------------------------|
-| ![Dashboard Page 1](Screenshots_application/customer.png)<br>![Dashboard Page 2](Screenshots_application/customer1.png)  |
+| ![Dashboard Page 1](Screenshots_application/dashboard.png)<br>![Dashboard Page 2](Screenshots_application/dashboard1.png) <br>![Dashboard Page 2](Screenshots_application/dashboard2.png)  |
 
 
 
