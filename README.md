@@ -39,7 +39,7 @@ A full-featured salon management system with CRUD operations for seamless intera
 ### 🏠 Homepage, Our Team Section, Added Service page , send message section and Review Page
 | Homepage                             | Team Section                                               |         Added Service Section                |   
 |-------------------------------------|-------------------------------------------------------------|-----------------------------------------------------|
-| ![Homepage](Screenshots_application/home.png) | ![Team](Screenshots_application/team.png)   | ![service](Screenshots_application/service.png) | 
+| ![Homepage](Screenshots_application/home.png) | ![Team](Screenshots_application/team.png)   | ![service](Screenshots_application/services1.png) | 
 
 
  |     Send message section               |     Review page           |
@@ -82,7 +82,7 @@ A full-featured salon management system with CRUD operations for seamless intera
 ### 💇‍♀️ Available Services in customer dashboard
 | Insert Services                      |
 |--------------------------------------|
-| ![Calendar](Screenshots_application/service1.png) |
+| ![Calendar](Screenshots_application/service_dashboard.png) |
 ---
 
 ## 🛠️ Technologies Used
