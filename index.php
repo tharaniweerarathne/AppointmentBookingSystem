@@ -52,8 +52,8 @@
             <img src="images/about4.webp" alt="Aboutus image" />
             <div class="about_text">
                 <h1>About Us</h1>
-                <h5>SALON <span class="about1"> HAIR </span></h5>
-                <p>Salon hair in Seeduwa offers premium beauty and wellness services, 
+                <h5>RANHUYA <span class="about1"> BRIDAL HOUSE </span></h5>
+                <p>Ranhuya Bridal House in Seeduwa offers premium beauty and wellness services, 
                     including exceptional bridal makeup and other treatments. 
                     The salon focuses on delivering high-quality services in a relaxing, luxurious environment, 
                     ensuring customer satisfaction through personalized attention and detail.</p>
@@ -198,7 +198,7 @@
         <div class="footer_col">
             <div class="footer_logo"><img src="images/logo.png" alt="logo"></div>
             <p>
-            Salon hair in Seeduwa offers premium beauty and wellness services, 
+            Ranhuya Bridal House in Seeduwa offers premium beauty and wellness services, 
                 including exceptional bridal makeup and other treatments, 
                 focusing on customer satisfaction and personalized attention.
             </p>
@@ -230,7 +230,7 @@
         </div>
 
         <div class="footer_bar">
-            © 2024 Salon Hair. All Rights Reserved.
+            © 2024 Ranhuya Bridal House. All Rights Reserved.
         </div>
     </footer>
 
